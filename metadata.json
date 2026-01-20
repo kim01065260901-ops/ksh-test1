@@ -1,0 +1,5 @@
+{
+  "name": "ZenTask AI",
+  "description": "A high-performance, AI-enhanced task management application integrated with Supabase and Google Gemini for smart productivity.",
+  "requestFramePermissions": []
+}
