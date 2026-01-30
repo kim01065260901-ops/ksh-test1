@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState, useCallback, useMemo } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { supabase } from './services/supabase';
 import { Todo, Priority } from './types';
 import { TaskCard } from './components/TaskCard';
@@ -247,6 +248,7 @@ const App: React.FC = () => {
       <footer className="mt-20 text-center pb-10">
         <p className="text-[10px] text-gray-300 font-bold uppercase tracking-[0.2em]">Powered by Supabase & Gemini AI</p>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
